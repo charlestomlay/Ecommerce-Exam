@@ -1,0 +1,112 @@
+
+.kasbihan{
+    display: flex;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    gap: 10px;
+    padding: 10px;
+    background: #f8f8f8;
+}
+
+.logo{
+    border: solid white 2px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    color: white;
+}
+.navbar{
+    background-color: gray;
+}
+
+.hey{
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.samples{
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 0 20px;
+}
+.card{
+    box-shadow: 5px 5px 5px;
+}
+.card-body{
+    text-align: center;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+}
+.btn-btn-black{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.img-fluid{
+    box-shadow: 5px 5px 5px;
+    padding: 20px;
+}
+.fw-bold{
+    font-family: sans-serif;
+}
+.hero-title{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.about-text{
+    font-family: sans-serif;
+}
+.feature-title{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.small{
+    font-family: sans-serif;
+}
+.text-center{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.btn-btn-black{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.info-title{
+    font-weight: bold;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 18rem);
+    gap: 20px;
+    justify-content: center;
+    padding: 20PX 0;
+}
